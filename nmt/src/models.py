@@ -91,7 +91,7 @@ class NMTModel(nn.Module):
 
     def forward(self, batch):
         source, source_mask = batch['source_sentence'], batch['source_sentence_mask']
-        target, target_mask = batch['target_sentence'], batch['target_sentence_mask']
+        target, target_mask = batch['target_language_sentence'], batch['target_sentence_mask']
 
         encoder_output, hidden = self.encoder((source, source_mask))
         decoder_output = self.decoder((target, target_mask), hidden)
