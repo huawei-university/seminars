@@ -1,4 +1,4 @@
-# Neurlal Machine Translation
+# Neural Machine Translation
 To download dataset you can use `bash get_data.sh` command, or `python3 get_data.py` (special for Windows users).  
 
 Check `machine_translation.ipynb` file for baseline solution.  
