@@ -1,3 +1,5 @@
+# Created by: c00k1ez (https://github.com/c00k1ez)
+
 import random
 import numpy as np 
 import torch

@@ -1,3 +1,5 @@
+# Created by: c00k1ez (https://github.com/c00k1ez)
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F 

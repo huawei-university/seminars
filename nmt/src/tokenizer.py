@@ -1,8 +1,10 @@
-import nltk
+# Created by: c00k1ez (https://github.com/c00k1ez)
 
 from typing import List, Union, Tuple, Dict
 from collections import Counter
 import math
+
+import nltk
 
 import tqdm
 
