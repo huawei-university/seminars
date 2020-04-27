@@ -143,7 +143,7 @@ class NMTModel(nn.Module):
             'target_sentence_mask': None
         }
         with torch.no_grad():
-            sentence_emb, hidden = self.encoder(batch)
+            sentence_emb, hidden = self.encoder((source_sentence, None))
 
         while translated_sentence[-1] != 1:
             target = torch.LongTensor([translated_sentence]).type_as(source_sentence)
