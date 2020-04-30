@@ -1,5 +1,5 @@
 # Transformers
-This seminar contains a notebook with 2 independent tasks. To download datasets you have to use `python3 get_data.py` command.
+This seminar contains a notebook with 2 independent tasks. Dataset will be automatically downloaded when you initialize first time the DataParser class for each task.
 ## 1. Quora question pairs classification with BERT
 A few words about the task: we have to identify question pairs that have the same intent. 
 Check first part of [transformers_demo.ipynb](./transformers_demo.ipynb) for a baseline solution. As in the previous seminar, you can find data preprocessing and models code in the [src/bert](./src/bert) directory.  
