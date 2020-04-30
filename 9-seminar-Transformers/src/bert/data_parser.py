@@ -13,7 +13,7 @@ class DataParser:
     def _read_file_(self) -> List[Tuple[str, str, int]]:
         data = []
         with open(self.file_path, 'r', encoding='utf-8') as csvfile:
-            reader = csv.DictReader(csvfile)
+            reader = csv.DictReader(csvfile, delimiter="\t")
             for row in reader:
                 data.append((row['question1'], row['question2'], row['is_duplicate']))
         return data
